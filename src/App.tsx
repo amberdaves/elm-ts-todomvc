@@ -431,6 +431,7 @@ const AppComponent = (props: AppComponentProps) => {
                 onCancel={onCancel}
                 onToggleAll={onToggleAll}
               />
+	      Footer
               <FooterComponent
                 nrActiveTodos={nrActiveTodos}
                 filter={filter}

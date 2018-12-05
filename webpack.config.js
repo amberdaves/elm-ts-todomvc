@@ -30,6 +30,10 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    },
     extensions: ['.js', '.ts', '.tsx']
   },
   module: {
